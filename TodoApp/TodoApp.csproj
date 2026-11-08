@@ -19,23 +19,4 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.0" />
 	</ItemGroup>
 
-	<ItemGroup>
-		<MauiAsset Include="Resources\Fonts\OpenSans-Regular.ttf" />
-		<MauiAsset Include="Resources\Fonts\OpenSans-Semibold.ttf" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<MauiXaml Include="App.xaml" />
-		<MauiXaml Include="MainPage.xaml" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Compile Update="MainPage.xaml.cs">
-			<DependentUpon>MainPage.xaml</DependentUpon>
-		</Compile>
-		<Compile Update="App.xaml.cs">
-			<DependentUpon>App.xaml</DependentUpon>
-		</Compile>
-	</ItemGroup>
-
 </Project>

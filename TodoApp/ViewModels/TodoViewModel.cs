@@ -105,7 +105,7 @@ public class TodoViewModel : INotifyPropertyChanged
 		CompletedCount = Todos.Count(t => t.IsCompleted);
 		OnPropertyChanged(nameof(HasTodos));
 		OnPropertyChanged(nameof(IsEmpty));
-		((Command)AddCommand).RaiseCanExecuteChanged();
+		((Command)AddCommand).ChangeCanExecute();
 	}
 
 	public event PropertyChangedEventHandler? PropertyChanged;
