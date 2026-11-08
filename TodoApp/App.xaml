@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoApp.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#7C3AED</Color>
+            <Color x:Key="OnPrimary">White</Color>
+            <Color x:Key="Background">White</Color>
+            <Color x:Key="OnBackground">Black</Color>
+            <Color x:Key="LightGrey">#F5F5F5</Color>
+
+            <Style TargetType="Button">
+                <Setter Property="Background" Value="{StaticResource Primary}" />
+                <Setter Property="TextColor" Value="{StaticResource OnPrimary}" />
+                <Setter Property="CornerRadius" Value="24" />
+                <Setter Property="HeightRequest" Value="48" />
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+
+            <Style TargetType="Entry">
+                <Setter Property="Background" Value="{StaticResource LightGrey}" />
+                <Setter Property="PlaceholderColor" Value="Gray" />
+                <Setter Property="Margin" Value="0,4" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
