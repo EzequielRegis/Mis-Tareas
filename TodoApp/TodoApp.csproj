@@ -8,11 +8,15 @@
 		<SingleProject>true</SingleProject>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<ApplicationId>com.companyname.todoapp</ApplicationId>
+		<ApplicationId>com.tasklist.app</ApplicationId>
 		<ApplicationDisplayVersion>1.0.0</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
 		<WindowsPackageType>None</WindowsPackageType>
 		<SupportedOSPlatformVersion>21.0</SupportedOSPlatformVersion>
+		<FastDeployment>False</FastDeployment>
+<AndroidUseUncompressedNativeLibraries>True</AndroidUseUncompressedNativeLibraries>
+		<FastDeployment>False</FastDeployment>
+		<AndroidUseUncompressedNativeLibraries>True</AndroidUseUncompressedNativeLibraries>
 	</PropertyGroup>
 
 	<ItemGroup>
