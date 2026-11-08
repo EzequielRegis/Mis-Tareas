@@ -13,10 +13,10 @@
 		<ApplicationVersion>1</ApplicationVersion>
 		<WindowsPackageType>None</WindowsPackageType>
 		<SupportedOSPlatformVersion>21.0</SupportedOSPlatformVersion>
-		<FastDeployment>False</FastDeployment>
-<AndroidUseUncompressedNativeLibraries>True</AndroidUseUncompressedNativeLibraries>
-		<FastDeployment>False</FastDeployment>
+		<AndroidEnableFastDeployment>False</AndroidEnableFastDeployment>
+		<EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
 		<AndroidUseUncompressedNativeLibraries>True</AndroidUseUncompressedNativeLibraries>
+		<AndroidEnableAssemblyCompression>False</AndroidEnableAssemblyCompression>
 	</PropertyGroup>
 
 	<ItemGroup>
