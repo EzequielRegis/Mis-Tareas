@@ -1,0 +1,5 @@
+{
+  "appId": "com.tasklist.app",
+  "appName": "TodoApp",
+  "webDir": "dist"
+}
