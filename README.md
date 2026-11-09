@@ -57,3 +57,15 @@ El APK sale en `TodoApp/bin/Debug/net8.0-android/`
 ## 📄 Licencia
 
 MIT
+
+
+
+git clone https://github.com/EzequielRegis/Mis-Tareas.git
+cd Mis-Tareas/capacitor-todo
+npm install
+npm run build
+cd android
+.\gradlew.bat assembleDebug
+
+Ahí te genera el build/ de nuevo localmente.
+capacitor-todo/android/app/build/outputs/apk/debug/app-debug.apk
